@@ -1,56 +1,53 @@
-# JuzzyAI_readme_only
-This repo contains ONLY README. If you want to purchase the product - you may follow link in bio
+<div align="center">
 
-# JuzzyAI
+# 🤖 JuzzyAI
 
-AI-powered coding assistant in your terminal. Chat, analyze, generate and refactor code using free AI models — locally or in the cloud.
+**AI coding assistant that lives in your terminal**
 
-## Download
+[Buy on Gumroad](https://gumroad.com/l/juzzyai) · [Demo](#demo) · [Features](#features)
 
-Download the latest version from the ********** (buy product in bio)
+</div>
+
+---
+
+## Demo
+
+> GIF here
+
+---
 
 ## Features
 
-- 💬 **Chat** — conversational coding assistant with session history
-- 🔍 **Analyze** — find bugs, performance issues, bad practices
-- ⚡ **Generate** — describe what you need, get production-ready code
-- 🔧 **Refactor** — clean up and improve existing code
-- 📡 **Streaming** — real-time responses with Markdown rendering
-- 🌐 **Offline** — works fully offline with Ollama
-- 📁 **File ops** — AI can create and edit files directly
-- 🔑 **License** — protected with license key system
+- 💬 Chat with AI about your code in real time
+- 📁 Load your project as context with `/project`
+- ✍️ AI creates and edits files directly in your terminal
+- ⚡ Streams responses token by token
+- 🆓 20+ free AI models out of the box
+- 🔒 Optional: run fully local with Ollama (no internet)
+- 🪟 Works on Windows, macOS, Linux
+
+---
 
 ## Supported Providers
 
-| Provider | Type | Cost |
-|----------|------|------|
-| Ollama | Local | Free |
-| Groq | Cloud | Free |
-| OpenRouter | Cloud | Free (28 models) |
-| Gemini | Cloud | Free tier |
-| HuggingFace | Cloud | Free tier |
+| Provider | Free Models | Needs API Key |
+|----------|-------------|---------------|
+| Ollama | ✅ Local | No |
+| Groq | ✅ Yes | Yes (free) |
+| OpenRouter | ✅ 20+ | Yes (free) |
+| Gemini | ✅ Yes | Yes (free) |
+| HuggingFace | ✅ Yes | Yes (free) |
 
-## Usage
-```bash
-juzzyai                          # start chat
-juzzyai analyze --file main.py   # analyze a file
-juzzyai generate                 # generate code
-juzzyai refactor --file main.py  # refactor a file
-juzzyai history                  # view chat history
-```
+---
 
-## Chat Commands
+## Install
 
-| Command | Description |
-|---------|-------------|
-| `/help` | Show all commands |
-| `/new` | New session |
-| `/sessions` | List sessions |
-| `/copy` | Copy last response |
-| `/clear` | Clear screen |
-| `/reset` | Reset profile |
-| `/exit` | Exit |
+Download the latest release → **[Gumroad](https://gumroad.com/l/juzzyai)**
+
+Run the installer and you're done. No Python required.
+
+---
 
 ## License
 
-Copyright (c) 2026 Zhussup. All rights reserved.
+Proprietary. All rights reserved © 2026 JuzzyAI
