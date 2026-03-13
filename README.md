@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🤖 JuzzyAI
+# JuzzyAI
 
 **AI coding assistant that lives in your terminal**
 
